@@ -3,8 +3,8 @@
 为什么将Binder与Ashm匿名共享内存放在开头，因为Binder与Ashm是Android在Linux内核上新加的机制，都是IPC机制。Binder是整个Android系统的核心机制，理解Binder对理解整个系统至关重要。对于Binder机制的介绍可以看universus写的《Android Binder设计与实现》。另外还两个老外介绍Binder的PPT也不错。      
      
 [Android Binder设计与实现 - 设计篇](http://blog.csdn.net/universus/article/details/6211589)     
-[inter-process method invocation in Android ](https://github.com/clarkehe/Binder/blob/master/doc/androidipm20110409-110409000514-phpapp01.pdf) （相对入门一点，可以先看这个）    
-[Deep Dive into Android IPC:Binder Framework](https://github.com/clarkehe/Binder/blob/master/doc/Deep%20Dive%20into%20Android%20IPC:Binder%20Framework.pdf)      
+[inter-process method invocation in Android ](https://www.slideshare.net/tetsu.koba/interprocess-communication-of-android) （相对入门一点，可以先看这个）    
+[Deep Dive into Android IPC:Binder Framework](http://events.linuxfoundation.org/images/stories/slides/abs2013_gargentas.pdf)      
 [android与linux的关系](https://events.linuxfoundation.org/images/stories/slides/jls09/jls09_torres.pdf)  （看前几页PPT就好了）
 
 Android的匿名共享内存机制是在内核实现的，也是基于Linux内核本身的共享内存机制，作了一层封装。Android提供了匿名共享内存的C运行库访问接口（但NDK不能使用），Java层也有访问接口，就是MemoryFile.java，通过研究MemoryFile可以了解匿名内存的机制。
