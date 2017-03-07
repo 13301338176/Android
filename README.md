@@ -107,7 +107,10 @@ H5与Native之争，没有高下，现在都是Hybrid App（混合型应用）�
 ### Unity
 [协程](http://twistedoakstudios.com/blog/Post83_coroutines-more-than-you-want-to-know)       
 [Unity3D之Mesh](http://www.cnphp6.com/detail/15375)       
-[Execution Order of Event Functions](https://docs.unity3d.com/Manual/ExecutionOrder.html)                     
+[Execution Order of Event Functions](https://docs.unity3d.com/Manual/ExecutionOrder.html)         
+[Unity资源路径及加载外部资源介绍](http://simcai.com/2015/11/29/Unity%E8%B5%84%E6%BA%90%E8%B7%AF%E5%BE%84%E5%8F%8A%E5%8A%A0%E8%BD%BD%E5%A4%96%E9%83%A8%E8%B5%84%E6%BA%90%E4%BB%8B%E7%BB%8D/)                           
+[A guide to AssetBundles and Resources](https://unity3d.com/learn/tutorials/topics/best-practices/guide-assetbundles-and-resources)             
+
 
 ### VR声音
 [VR声音入门](http://www.gameres.com/696819.html)                     
