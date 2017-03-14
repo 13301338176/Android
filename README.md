@@ -73,9 +73,12 @@ H5与Native之争，没有高下，现在都是Hybrid App（混合型应用）�
 ###音视频与直播技术
 2016年直播应用大爆发，总结直播相关的技术问题。建议先看下《移动直播技术秒开优化经验（含PPT）》，对视频直播的整个技术栈及相关问题有比较清晰的描述。
 
-[移动直播技术秒开优化经验（含PPT）](http://weibo.com/ttarticle/p/show?id=2309403969318634263193)              
+[移动直播技术秒开优化经验（含PPT）](http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=2653547042&idx=1&sn=26d8728548a6b5b657079eeab121e283&scene=1&srcid=0428msEitG9LJ3JaKGaRCEjg&from=groupmessage&isappinstalled=0)              
 [H264编码模式](https://github.com/clarkehe/work/wiki/%E8%A7%86%E9%A2%91(1):-H264%E7%BC%96%E7%A0%81%E6%A8%A1%E5%BC%8F)              
-[视频直播协议](https://github.com/clarkehe/work/wiki/%E8%A7%86%E9%A2%91%E7%9B%B4%E6%92%AD%E5%8D%8F%E8%AE%AE)
+[视频直播协议](https://github.com/clarkehe/work/wiki/%E8%A7%86%E9%A2%91%E7%9B%B4%E6%92%AD%E5%8D%8F%E8%AE%AE)                  
+[深入浅出看流媒体前世今生，分分钟二逼变牛逼](http://tech.lmtw.com/technews/201504/115637.html)                            
+[流媒体｜从入门到出家：流媒体协议—FLV](http://befo.io/4178.html)
+
 
 ### 测试及app质量
 测试能保证版本没有明显的Bug，但不能通过测试来保证App的质量。没有Bug不一定是有质量的，有质量的App需要开发、产品和用户一起打造。总结一些从技术上能提升与验证质量的一些方法。
