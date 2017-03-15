@@ -80,7 +80,7 @@ H5与Native之争，没有高下，现在都是Hybrid App（混合型应用）�
 [流媒体｜从入门到出家：流媒体协议—FLV](http://befo.io/4178.html)
 
 #### H264                   
-[H.264 码流结构解析](http://blog.csdn.net/leixiaohua1020/article/details/45001033)                     
+[H.264 码流结构解析](www.61ic.com/code/attachment.php?aid=65610)                      
 [采用工具软件分析h264文件](https://depthlove.github.io/2015/09/23/use-tool-to-analyze-h264-file/)                              
 [FFmpeg的H.264解码器源代码简单分析：解析器（Parser）部分](http://blog.csdn.net/leixiaohua1020/article/details/45001033)                    
 
