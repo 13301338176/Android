@@ -70,7 +70,7 @@ H5与Native之争，没有高下，现在都是Hybrid App（混合型应用）�
 
 ### 架构
        
-###音视频与直播技术
+### 音视频与直播技术                    
 2016年直播应用大爆发，总结直播相关的技术问题。建议先看下《移动直播技术秒开优化经验（含PPT）》，对视频直播的整个技术栈及相关问题有比较清晰的描述。
 
 [移动直播技术秒开优化经验（含PPT）](http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=2653547042&idx=1&sn=26d8728548a6b5b657079eeab121e283&scene=1&srcid=0428msEitG9LJ3JaKGaRCEjg&from=groupmessage&isappinstalled=0)              
@@ -78,6 +78,11 @@ H5与Native之争，没有高下，现在都是Hybrid App（混合型应用）�
 [视频直播协议](https://github.com/clarkehe/work/wiki/%E8%A7%86%E9%A2%91%E7%9B%B4%E6%92%AD%E5%8D%8F%E8%AE%AE)                  
 [深入浅出看流媒体前世今生，分分钟二逼变牛逼](http://tech.lmtw.com/technews/201504/115637.html)                            
 [流媒体｜从入门到出家：流媒体协议—FLV](http://befo.io/4178.html)
+
+#### H264                   
+[H.264 码流结构解析](http://blog.csdn.net/leixiaohua1020/article/details/45001033)                     
+[采用工具软件分析h264文件](https://depthlove.github.io/2015/09/23/use-tool-to-analyze-h264-file/)                              
+[FFmpeg的H.264解码器源代码简单分析：解析器（Parser）部分](http://blog.csdn.net/leixiaohua1020/article/details/45001033)                    
 
 
 ### 测试及app质量
@@ -112,8 +117,7 @@ H5与Native之争，没有高下，现在都是Hybrid App（混合型应用）�
 [Unity3D之Mesh](http://www.cnphp6.com/detail/15375)       
 [Execution Order of Event Functions](https://docs.unity3d.com/Manual/ExecutionOrder.html)         
 [Unity资源路径及加载外部资源介绍](http://simcai.com/2015/11/29/Unity%E8%B5%84%E6%BA%90%E8%B7%AF%E5%BE%84%E5%8F%8A%E5%8A%A0%E8%BD%BD%E5%A4%96%E9%83%A8%E8%B5%84%E6%BA%90%E4%BB%8B%E7%BB%8D/)                           
-[A guide to AssetBundles and Resources](https://unity3d.com/learn/tutorials/topics/best-practices/guide-assetbundles-and-resources)             
-
+[A guide to AssetBundles and Resources](https://unity3d.com/learn/tutorials/topics/best-practices/guide-assetbundles-and-resources)           
 
 ### VR声音
 [VR声音入门](http://www.gameres.com/696819.html)                     
