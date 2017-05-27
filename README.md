@@ -113,20 +113,27 @@ H5与Native之争，没有高下，现在都是Hybrid App（混合型应用）�
 [Activity启动模式图文详解](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0520/2897.html)   
 
 ### Unity
-[协程](http://twistedoakstudios.com/blog/Post83_coroutines-more-than-you-want-to-know)       
-[Unity3D之Mesh](http://www.cnphp6.com/detail/15375)       
-[Execution Order of Event Functions](https://docs.unity3d.com/Manual/ExecutionOrder.html)         
-[Unity资源路径及加载外部资源介绍](http://simcai.com/2015/11/29/Unity%E8%B5%84%E6%BA%90%E8%B7%AF%E5%BE%84%E5%8F%8A%E5%8A%A0%E8%BD%BD%E5%A4%96%E9%83%A8%E8%B5%84%E6%BA%90%E4%BB%8B%E7%BB%8D/)                           
-[A guide to AssetBundles and Resources](https://unity3d.com/learn/tutorials/topics/best-practices/guide-assetbundles-and-resources)     
+[协程](http://twistedoakstudios.com/blog/Post83_coroutines-more-than-you-want-to-know)                     
+[Unity3D之Mesh](http://www.cnphp6.com/detail/15375)                     
+[Execution Order of Event Functions](https://docs.unity3d.com/Manual/ExecutionOrder.html)                   
+[Unity资源路径及加载外部资源介绍](http://simcai.com/2015/11/29/Unity%E8%B5%84%E6%BA%90%E8%B7%AF%E5%BE%84%E5%8F%8A%E5%8A%A0%E8%BD%BD%E5%A4%96%E9%83%A8%E8%B5%84%E6%BA%90%E4%BB%8B%E7%BB%8D/)                             
+[A guide to AssetBundles and Resources](https://unity3d.com/learn/tutorials/topics/best-practices/guide-assetbundles-and-resources)   
+[Unity lifetime management for IDisposable, part 1](http://thorarin.net/blog/post/2013/02/12/Unity-IoC-lifetime-management-IDisposable-part1.aspx)
 
 ### Unity性能
 性能的核心在GPU与CPU使用，如何提高使用效率或减少使用，是优化的关键。了解与性能相关渲染知识，使用相关的优化工具，是优化的基本套路。             
-[UGUI源码及其他](https://bitbucket.org/Unity-Technologies/ui/downloads/?tab=downloads)                                     
+[UGUI源码及其他](https://bitbucket.org/Unity-Technologies/ui/downloads/?tab=downloads)        
+
 [如何提升 VR 渲染的性能？](http://www.ifanr.com/778900)                     
+
 [Adreno GPU Profiler工具使用总结](http://blog.csdn.net/daijy0111/article/details/50427758)               
-[Squeezing Performance out of your Unity Gear VR Game](https://developer3.oculus.com/blog/squeezing-performance-out-of-your-unity-gear-vr-game/)                     
-[Optimizing VR Graphics with Late Latching](https://developer3.oculus.com/blog/optimizing-vr-graphics-with-late-latching/)               
-[Optimisation for VR in Unity](https://unity3d.com/cn/learn/tutorials/topics/virtual-reality/optimisation-vr-unity)                     
+
+[Squeezing Performance out of your Unity Gear VR Game](https://developer3.oculus.com/blog/squeezing-performance-out-of-your-unity-gear-vr-game/)                 
+
+[Optimizing VR Graphics with Late Latching](https://developer3.oculus.com/blog/optimizing-vr-graphics-with-late-latching/)           
+
+[Optimisation for VR in Unity](https://unity3d.com/cn/learn/tutorials/topics/virtual-reality/optimisation-vr-unity)              
+
 
 ### VR声音
 [VR声音入门](http://www.gameres.com/696819.html)                     
