@@ -132,7 +132,9 @@ H5与Native之争，没有高下，现在都是Hybrid App（混合型应用）�
 
 [Optimizing VR Graphics with Late Latching](https://developer3.oculus.com/blog/optimizing-vr-graphics-with-late-latching/)           
 
-[Optimisation for VR in Unity](https://unity3d.com/cn/learn/tutorials/topics/virtual-reality/optimisation-vr-unity)              
+[Optimisation for VR in Unity](https://unity3d.com/cn/learn/tutorials/topics/virtual-reality/optimisation-vr-unity)          
+
+[Three approaches to VR lens distortion](http://smus.com/vr-lens-distortion/)                         
 
 
 ### VR声音
