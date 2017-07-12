@@ -121,21 +121,22 @@ H5与Native之争，没有高下，现在都是Hybrid App（混合型应用）�
 [Unity lifetime management for IDisposable, part 1](http://thorarin.net/blog/post/2013/02/12/Unity-IoC-lifetime-management-IDisposable-part1.aspx)
 
 ### Unity性能
-性能的核心在GPU与CPU使用，如何提高使用效率或减少使用，是优化的关键。了解与性能相关渲染知识，使用相关的优化工具，是优化的基本套路。             
+性能的核心在GPU与CPU使用，如何提高使用效率或减少使用，是优化的关键。了解与性能相关渲染知识，使用相关的优化工具，是优化的基本套路。     
+
 [UGUI源码及其他](https://bitbucket.org/Unity-Technologies/ui/downloads/?tab=downloads)        
-
 [如何提升 VR 渲染的性能？](http://www.ifanr.com/778900)                     
-
 [Adreno GPU Profiler工具使用总结](http://blog.csdn.net/daijy0111/article/details/50427758)               
-
 [Squeezing Performance out of your Unity Gear VR Game](https://developer3.oculus.com/blog/squeezing-performance-out-of-your-unity-gear-vr-game/)                 
-
 [Optimizing VR Graphics with Late Latching](https://developer3.oculus.com/blog/optimizing-vr-graphics-with-late-latching/)           
-
 [Optimisation for VR in Unity](https://unity3d.com/cn/learn/tutorials/topics/virtual-reality/optimisation-vr-unity)          
+[Three approaches to VR lens distortion](http://smus.com/vr-lens-distortion/)           
 
-[Three approaches to VR lens distortion](http://smus.com/vr-lens-distortion/)                         
-
+VR(cardboard)的性能优化，除了常规的优化方案外，还有两个比较重要的点。                              
+1、VR左右眼优化，Single Pass Stereo Rendering。                      
+https://developer.oculus.com/documentation/unreal/latest/concepts/unreal-multi-view/   
+https://developer.oculus.com/documentation/unity/latest/concepts/unity-rendering/#unity-single-pass              
+https://developers.google.com/vr/android/ndk/gvr-ndk-rendering#optimize_performance_with_multiview                  
+2、反畸变优化，Vertex Displacement。
 
 ### VR声音
 [VR声音入门](http://www.gameres.com/696819.html)                     
