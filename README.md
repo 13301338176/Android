@@ -136,7 +136,8 @@ VR(cardboard)的性能优化，除了常规的优化方案外，还有两个比�
 https://developer.oculus.com/documentation/unreal/latest/concepts/unreal-multi-view/   
 https://developer.oculus.com/documentation/unity/latest/concepts/unity-rendering/#unity-single-pass              
 https://developers.google.com/vr/android/ndk/gvr-ndk-rendering#optimize_performance_with_multiview                  
-2、反畸变优化，Vertex Displacement。
+2、反畸变优化，Vertex Displacement。              
+https://www.youtube.com/watch?v=yJVkdsZc9YA
 
 ### VR声音
 [VR声音入门](http://www.gameres.com/696819.html)                     
