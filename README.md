@@ -137,7 +137,9 @@ https://developer.oculus.com/documentation/unreal/latest/concepts/unreal-multi-v
 https://developer.oculus.com/documentation/unity/latest/concepts/unity-rendering/#unity-single-pass              
 https://developers.google.com/vr/android/ndk/gvr-ndk-rendering#optimize_performance_with_multiview                  
 2、反畸变优化，Vertex Displacement。              
-https://www.youtube.com/watch?v=yJVkdsZc9YA
+https://www.youtube.com/watch?v=yJVkdsZc9YA            
+https://ustwo.com/blog/vr-distortion-correction-using-vertex-displacement                
+http://www.alanzucconi.com/2015/07/01/vertex-and-fragment-shaders-in-unity3d/
 
 ### VR声音
 [VR声音入门](http://www.gameres.com/696819.html)                     
