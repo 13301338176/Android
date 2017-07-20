@@ -137,7 +137,8 @@ https://developer.oculus.com/documentation/unreal/latest/concepts/unreal-multi-v
 https://developer.oculus.com/documentation/unity/latest/concepts/unity-rendering/#unity-single-pass              
 https://developers.google.com/vr/android/ndk/gvr-ndk-rendering#optimize_performance_with_multiview        
 https://community.arm.com/graphics/b/blog/posts/optimizing-virtual-reality-understanding-multiview          
-https://arm-software.github.io/opengl-es-sdk-for-android/multiview.html              
+https://arm-software.github.io/opengl-es-sdk-for-android/multiview.html                
+https://zhuanlan.zhihu.com/p/27314865              
 
 2、反畸变优化，Vertex Displacement。              
 https://www.youtube.com/watch?v=yJVkdsZc9YA            
