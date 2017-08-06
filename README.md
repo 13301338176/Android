@@ -149,7 +149,8 @@ http://www.alanzucconi.com/2015/07/01/vertex-and-fragment-shaders-in-unity3d/
 ### GPU Architecture
 性能优化和GPU的实现密切相关，了解一些关于GPU的硬件知识，更能有助于理解各种优化的技巧。
 https://bastianzuehlke.wordpress.com/2011/10/18/mobile-gpus-introduction-challenges/
-https://www.zhihu.com/question/49141824
+https://www.zhihu.com/question/49141824                
+http://www.expreview.com/24705-3.html           
 http://www.jarnau.site.ac.upc.edu/Arnau_CArD_Talk.pdf
 
 ### VR声音
