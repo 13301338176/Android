@@ -145,6 +145,12 @@ https://www.youtube.com/watch?v=yJVkdsZc9YA
 https://ustwo.com/blog/vr-distortion-correction-using-vertex-displacement                
 http://www.alanzucconi.com/2015/07/01/vertex-and-fragment-shaders-in-unity3d/
 
+
+### GPU Architecture
+性能优化和GPU的实现密切相关，了解一些关于GPU的硬件知识，更能有助于理解各种优化的技巧。
+https://bastianzuehlke.wordpress.com/2011/10/18/mobile-gpus-introduction-challenges/
+https://www.zhihu.com/question/49141824
+
 ### VR声音
 [VR声音入门](http://www.gameres.com/696819.html)                     
 [HRTF音频3D定位技术综述](http://www.soomal.com/doc/10100000146.htm)                     
