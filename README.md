@@ -146,12 +146,17 @@ https://ustwo.com/blog/vr-distortion-correction-using-vertex-displacement
 http://www.alanzucconi.com/2015/07/01/vertex-and-fragment-shaders-in-unity3d/
 
 
-### GPU Architecture
+### GPU Architecture & Profile
 性能优化和GPU的实现密切相关，了解一些关于GPU的硬件知识，更能有助于理解各种优化的技巧。
 https://bastianzuehlke.wordpress.com/2011/10/18/mobile-gpus-introduction-challenges/
 https://www.zhihu.com/question/49141824                
 http://www.expreview.com/24705-3.html           
 http://www.jarnau.site.ac.upc.edu/Arnau_CArD_Talk.pdf
+
+移动端GPU Profile工具有高通的Snapdragon Profile和Mali的GPU Graphic Debugger。实际用起来，高通的工具不好用，文档也少;
+Mali的工具好用一点，文档也丰富。                     
+https://community.arm.com/graphics/b/blog/posts/mali-performance-1-checking-the-pipeline                     
+https://community.arm.com/graphics/b/blog/posts/mgd-integration-in-unity                         
 
 ### VR声音
 [VR声音入门](http://www.gameres.com/696819.html)                     
