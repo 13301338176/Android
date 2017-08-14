@@ -157,7 +157,7 @@ http://www.jarnau.site.ac.upc.edu/Arnau_CArD_Talk.pdf
 
 实际用起来，高通的工具不好用，容易Crash不说，功能也是一会能用一会不能用，而且文档、教程极少。
 
-Mali的工具稳定，文档也丰富，但用用起来也是一堆的坑。Mali的StreamLine采集数据，需要root甚至自己定义Kernel，不root或定认kernel只能采集很少的
+Mali的工具稳定，文档也丰富，但用起来也是一堆的坑。Mali的StreamLine采集数据，需要root甚至自己定义Kernel，不root或自定义kernel只能采集很少的
 数据。用三星S6亲自试验了下：root后，需要修改系统设置，可还是不能修改成功；自定义kernel，从三星官方网下了源码，编译，打包成boot.img刷入，
 手机不能启动。看文档，StreamLine的功能还是很强大的，能用起来，最好了，后面还要再试下。                        
 
