@@ -2,7 +2,7 @@
 ### Binder与Ashm
 为什么将Binder与Ashm匿名共享内存放在开头，因为Binder与Ashm是Android在Linux内核上新加的机制，都是IPC机制。Binder是整个Android系统的核心机制，理解Binder对理解整个系统至关重要。对于Binder机制的介绍可以看universus写的《Android Binder设计与实现》。另外还两个老外介绍Binder的PPT也不错。      
      
-[Android Binder设计与实现 - 设计篇](http://blog.csdn.net/universus/article/details/6211589)     
+[Android Binder设计与实现 - 设计篇](http://blog.csdn.net/universus/article/details/6211589)                 
 [inter-process method invocation in Android ](https://www.slideshare.net/tetsu.koba/interprocess-communication-of-android) （相对入门一点，可以先看这个）    
 [Deep Dive into Android IPC:Binder Framework](http://events.linuxfoundation.org/images/stories/slides/abs2013_gargentas.pdf)      
 [android与linux的关系](https://events.linuxfoundation.org/images/stories/slides/jls09/jls09_torres.pdf)  （看前几页PPT就好了）
@@ -126,12 +126,11 @@ H5与Native之争，没有高下，现在都是Hybrid App（混合型应用）�
 在Unity中，UGUI在项目中都会能到，有2D的，也有3D的。UGUI也会涉及一些优化，如drawcall合并、过度绘制优化、事件检测优化等。UGUI的代码是开源的，可以学习下，了解下内部实现机制，也能够对其定制扩展。      
 
 [UGUI源码及其他](https://bitbucket.org/Unity-Technologies/ui/downloads/?tab=downloads)                
-[UWA直播|UGUI性能优化技巧](https://v.qq.com/x/page/l0329fvbrfn.html)                   
+[UWA直播|UGUI性能优化技巧](https://v.qq.com/x/page/l0329fvbrfn.html)                                  
+[关于Unity中的UGUI优化，你可能遇到这些问题](https://blog.uwa4d.com/archives/QA_UGUI-1.html)                          
 
-对于VR的Unity优化，常规的一些优化也必须。虽然，有很多资料说是针对VR的优化，其实也是一些常优化技术的使用。        
-
-[如何提升 VR 渲染的性能？](http://www.ifanr.com/778900)                                 
-[Squeezing Performance out of your Unity Gear VR Game](https://developer3.oculus.com/blog/squeezing-performance-out-of-your-unity-gear-vr-game/)                           
+对于VR的Unity优化，常规的一些优化也必须。虽然，有很多资料说是针对VR的优化，其实也是一些常优化技术的使用。             
+[Squeezing Performance out of your Unity Gear VR Game](https://developer3.oculus.com/blog/squeezing-performance-out-of-your-unity-gear-vr-game/)                               
 [Optimizing VR Graphics with Late Latching](https://developer3.oculus.com/blog/optimizing-vr-graphics-with-late-latching/)           
 [Optimisation for VR in Unity](https://unity3d.com/cn/learn/tutorials/topics/virtual-reality/optimisation-vr-unity)          
 [Three approaches to VR lens distortion](http://smus.com/vr-lens-distortion/)           
@@ -160,13 +159,12 @@ http://www.jarnau.site.ac.upc.edu/Arnau_CArD_Talk.pdf
 
 移动端GPU Profile工具有高通的Snapdragon Profile和Mali的GPU Graphic Debugger。
 
-实际用起来，高通的工具不好用，容易Crash不说，功能也是一会能用一会不能用，而且文档、教程极少。                  
+实际用起来，高通的工具不好用，容易Crash不说，功能也是一会能用一会不能用，而且文档、教程极少。    
 [Adreno GPU Profiler工具使用总结](http://blog.csdn.net/daijy0111/article/details/50427758)                
 
 Mali的工具稳定，文档也丰富，但用起来也是一堆的坑。Mali的StreamLine采集数据，需要root甚至自己定义Kernel，不root或自定义kernel只能采集很少的
 数据。用三星S6亲自试验了下：root后，需要修改系统设置，可还是不能修改成功；自定义kernel，从三星官方网下了源码，编译，打包成boot.img刷入，
-手机不能启动。看文档，StreamLine的功能还是很强大的，能用起来，最好了，后面还要再试下。                        
-
+手机不能启动。看文档StreamLine的功能还是很强大的，能用起来，最好了，后面还要再试下。                        
 Mali的Graphic Debugger用起来，就好一点；已经与Unity有集成，从Unity编出来的APK可直接在手机上调试。                                  
 https://community.arm.com/graphics/b/blog/posts/mali-performance-1-checking-the-pipeline                      
 https://community.arm.com/graphics/b/blog/posts/mgd-integration-in-unity                                   
