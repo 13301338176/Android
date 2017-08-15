@@ -123,10 +123,15 @@ H5与Native之争，没有高下，现在都是Hybrid App（混合型应用）�
 ### Unity性能
 性能的核心在GPU与CPU使用，如何提高使用效率或减少使用，是优化的关键。了解与性能相关渲染知识，使用相关的优化工具，是优化的基本套路。     
 
-[UGUI源码及其他](https://bitbucket.org/Unity-Technologies/ui/downloads/?tab=downloads)        
-[如何提升 VR 渲染的性能？](http://www.ifanr.com/778900)                     
-[Adreno GPU Profiler工具使用总结](http://blog.csdn.net/daijy0111/article/details/50427758)               
-[Squeezing Performance out of your Unity Gear VR Game](https://developer3.oculus.com/blog/squeezing-performance-out-of-your-unity-gear-vr-game/)                 
+在Unity中，UGUI在项目中都会能到，有2D的，也有3D的。UGUI也会涉及一些优化，如drawcall合并、过度绘制优化、事件检测优化等。UGUI的代码是开源的，可以学习下，了解下内部实现机制，也能够对其定制扩展。      
+
+[UGUI源码及其他](https://bitbucket.org/Unity-Technologies/ui/downloads/?tab=downloads)                
+[UWA直播|UGUI性能优化技巧](https://v.qq.com/x/page/l0329fvbrfn.html)                   
+
+对于VR的Unity优化，常规的一些优化也必须。虽然，有很多资料说是针对VR的优化，其实也是一些常优化技术的使用。        
+
+[如何提升 VR 渲染的性能？](http://www.ifanr.com/778900)                                 
+[Squeezing Performance out of your Unity Gear VR Game](https://developer3.oculus.com/blog/squeezing-performance-out-of-your-unity-gear-vr-game/)                           
 [Optimizing VR Graphics with Late Latching](https://developer3.oculus.com/blog/optimizing-vr-graphics-with-late-latching/)           
 [Optimisation for VR in Unity](https://unity3d.com/cn/learn/tutorials/topics/virtual-reality/optimisation-vr-unity)          
 [Three approaches to VR lens distortion](http://smus.com/vr-lens-distortion/)           
@@ -155,7 +160,8 @@ http://www.jarnau.site.ac.upc.edu/Arnau_CArD_Talk.pdf
 
 移动端GPU Profile工具有高通的Snapdragon Profile和Mali的GPU Graphic Debugger。
 
-实际用起来，高通的工具不好用，容易Crash不说，功能也是一会能用一会不能用，而且文档、教程极少。
+实际用起来，高通的工具不好用，容易Crash不说，功能也是一会能用一会不能用，而且文档、教程极少。                  
+[Adreno GPU Profiler工具使用总结](http://blog.csdn.net/daijy0111/article/details/50427758)                
 
 Mali的工具稳定，文档也丰富，但用起来也是一堆的坑。Mali的StreamLine采集数据，需要root甚至自己定义Kernel，不root或自定义kernel只能采集很少的
 数据。用三星S6亲自试验了下：root后，需要修改系统设置，可还是不能修改成功；自定义kernel，从三星官方网下了源码，编译，打包成boot.img刷入，
