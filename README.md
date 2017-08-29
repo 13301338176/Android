@@ -2,7 +2,7 @@
 ### Binder与Ashm
 为什么将Binder与Ashm匿名共享内存放在开头，因为Binder与Ashm是Android在Linux内核上新加的机制，都是IPC机制。Binder是整个Android系统的核心机制，理解Binder对理解整个系统至关重要。对于Binder机制的介绍可以看universus写的《Android Binder设计与实现》。另外还两个老外介绍Binder的PPT也不错。      
      
-[Android Binder设计与实现 - 设计篇](http://blog.csdn.net/universus/article/details/6211589)                 
+[Android Binder设计与实现 - 设计篇](http://blog.csdn.net/universus/article/details/6211589)                                  
 [inter-process method invocation in Android ](https://www.slideshare.net/tetsu.koba/interprocess-communication-of-android) （相对入门一点，可以先看这个）    
 [Deep Dive into Android IPC:Binder Framework](http://events.linuxfoundation.org/images/stories/slides/abs2013_gargentas.pdf)      
 [android与linux的关系](https://events.linuxfoundation.org/images/stories/slides/jls09/jls09_torres.pdf)  （看前几页PPT就好了）
@@ -126,7 +126,7 @@ H5与Native之争，没有高下，现在都是Hybrid App（混合型应用）�
 在Unity中，UGUI在项目中都会能到，有2D的，也有3D的。UGUI也会涉及一些优化，如drawcall合并、过度绘制优化、事件检测优化等。UGUI的代码是开源的，可以学习下，了解下内部实现机制，也能够对其定制扩展。      
 
 [UGUI源码及其他](https://bitbucket.org/Unity-Technologies/ui/downloads/?tab=downloads)                
-[UWA直播|UGUI性能优化技巧](https://v.qq.com/x/page/l0329fvbrfn.html)                                  
+[UWA直播|UGUI性能优化技巧](https://v.qq.com/x/page/l0329fvbrfn.html)                                           
 [关于Unity中的UGUI优化，你可能遇到这些问题](https://blog.uwa4d.com/archives/QA_UGUI-1.html)                          
 
 对于VR的Unity优化，常规的一些优化也必须。虽然，有很多资料说是针对VR的优化，其实也是一些常优化技术的使用。             
@@ -136,7 +136,7 @@ H5与Native之争，没有高下，现在都是Hybrid App（混合型应用）�
 [Three approaches to VR lens distortion](http://smus.com/vr-lens-distortion/)           
 
 VR(cardboard)的性能优化，除了常规的优化方案外，还有两个比较重要的点。                              
-1、VR左右眼优化，Single Pass Stereo Rendering。                      
+1、VR左右眼优化，Single Pass Stereo Rendering                      
 https://developer.oculus.com/documentation/unreal/latest/concepts/unreal-multi-view/   
 https://developer.oculus.com/documentation/unity/latest/concepts/unity-rendering/#unity-single-pass              
 https://developers.google.com/vr/android/ndk/gvr-ndk-rendering#optimize_performance_with_multiview        
@@ -144,11 +144,14 @@ https://community.arm.com/graphics/b/blog/posts/optimizing-virtual-reality-under
 https://arm-software.github.io/opengl-es-sdk-for-android/multiview.html                
 https://zhuanlan.zhihu.com/p/27314865              
 
-2、反畸变优化，Vertex Displacement。              
+2、反畸变优化，Vertex Displacement              
 https://www.youtube.com/watch?v=yJVkdsZc9YA            
 https://ustwo.com/blog/vr-distortion-correction-using-vertex-displacement                
 http://www.alanzucconi.com/2015/07/01/vertex-and-fragment-shaders-in-unity3d/
 
+3、解决FPS不足的黑科技：ATW与ASW                
+https://www.leiphone.com/news/201604/8zyg8k26TGN7pYd4.html                              
+http://www.wanhuajing.com/d366448                          
 
 ### GPU Architecture & Profile
 性能优化和GPU的实现密切相关，了解一些关于GPU的硬件知识，更能有助于理解各种优化的技巧。
