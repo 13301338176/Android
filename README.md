@@ -192,7 +192,7 @@ VR视觉有三个关键技术指标：延迟时长（一般要低于20ms)、帧�
 [为什么VR游戏玩完后会头晕、恶心？](https://www.zhihu.com/question/36244458/answer/87994209)             
 [全景视频JS组件](https://krpano.com/video/)                                  
 
-在实际项目中发现基于google VR的SDK开发的App，会出现画面抖动、漂移等问题。这与参差不齐的Android手机有关，goole VR的SDK也有Bug。现在一些VR的硬件厂家会自己加入九轴传感器，不使用手机的Sensor（兼容性太难搞了）。
+在实际项目中发现基于google VR的SDK开发的App，会出现画面抖动、漂移等问题。这与参差不齐的Android手机有关，goole VR的SDK也有Bug。现在一些VR的硬件厂家会自己加入九轴传感器，不使用手机的Sensor（兼容性太难搞了）。                                                
 [ VR中的9轴传感器](http://blog.csdn.net/dabenxiong666/article/details/53836503)                       
 
 ### 其他
