@@ -157,6 +157,9 @@ http://blog.csdn.net/dabenxiong666/article/details/69324024
 ### Unity内存
 对于Unity的内存机制，其实还是模棱两可，找了些文章，感觉都没有讲透，就先不引用相关资料了。                       
 
+[C# MEMORY AND PERFORMANCE TIPS FOR UNITY](http://www.somasim.com/blog/2015/04/csharp-memory-and-performance-tips-for-unity/)           
+[Unity Internals: Memory and Performance](https://www.slideshare.net/flashgamm/unity-internals-memory-and-performance)              
+
 项目刚开始时，就觉得会有一些内存的问题，但对于Unity的内存机制没有吃透，不知从何下手。昨天就确实碰到了内存相关具体问题：刚进场景时，会卡住好几秒。经分析：是通过www加载了一个2.6MB的图片，还加载了两次，加载完还在主线程中写文件缓存。这里涉及4个问题：a、加载的图片有2.6MB，过大了;b、加载两次，是逻辑bug；c、在主线程中写文件；还有一个问题是:www.texture 是否应该引用的问题。                         
 
 既然已经碰到具体的问题了，感觉是时候对内存进行一些分析了。Unity的Profile工具中就有内存的信息，信息是有，但不知道如何用这些信息进行分析。晚上睡觉前
