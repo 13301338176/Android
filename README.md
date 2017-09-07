@@ -127,7 +127,10 @@ H5与Native之争，没有高下，现在都是Hybrid App（混合型应用）�
 
 [UGUI源码及其他](https://bitbucket.org/Unity-Technologies/ui/downloads/?tab=downloads)                
 [UWA直播|UGUI性能优化技巧](https://v.qq.com/x/page/l0329fvbrfn.html)                                           
-[关于Unity中的UGUI优化，你可能遇到这些问题](https://blog.uwa4d.com/archives/QA_UGUI-1.html)                          
+[关于Unity中的UGUI优化，你可能遇到这些问题](https://blog.uwa4d.com/archives/QA_UGUI-1.html)             
+
+性能优化，其实不是CPU不够用就是GPU不够用，或都不够用。在使用Unity Profile时，会有一些线索的指向。                                    
+[扒一扒Profiler中这几个“占坑鬼”](https://blog.uwa4d.com/archives/presentandsync.html)                                   
 
 对于VR的Unity优化，常规的一些优化也必须。虽然，有很多资料说是针对VR的优化，其实也是一些常优化技术的使用。             
 [Squeezing Performance out of your Unity Gear VR Game](https://developer3.oculus.com/blog/squeezing-performance-out-of-your-unity-gear-vr-game/)                               
