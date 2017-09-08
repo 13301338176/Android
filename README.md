@@ -129,7 +129,8 @@ H5与Native之争，没有高下，现在都是Hybrid App（混合型应用）�
 [UWA直播|UGUI性能优化技巧](https://v.qq.com/x/page/l0329fvbrfn.html)                                           
 [关于Unity中的UGUI优化，你可能遇到这些问题](https://blog.uwa4d.com/archives/QA_UGUI-1.html)             
 
-性能优化，其实不是CPU不够用就是GPU不够用，或都不够用。在使用Unity Profile时，会有一些线索的指向。                                    
+性能优化，其实不是CPU不够用就是GPU不够用，或都不够用。在使用Unity Profile时，会有一些线索的指向。         
+
 [扒一扒Profiler中这几个“占坑鬼”](https://blog.uwa4d.com/archives/presentandsync.html)                                   
 
 对于VR的Unity优化，常规的一些优化也必须。虽然，有很多资料说是针对VR的优化，其实也是一些常优化技术的使用。             
@@ -163,10 +164,9 @@ http://blog.csdn.net/dabenxiong666/article/details/69324024
 [C# MEMORY AND PERFORMANCE TIPS FOR UNITY](http://www.somasim.com/blog/2015/04/csharp-memory-and-performance-tips-for-unity/)           
 [Unity Internals: Memory and Performance](https://www.slideshare.net/flashgamm/unity-internals-memory-and-performance)              
 
-项目刚开始时，就觉得会有一些内存的问题，但对于Unity的内存机制没有吃透，不知从何下手。昨天就确实碰到了内存相关具体问题：刚进场景时，会卡住好几秒。经分析：是通过www加载了一个2.6MB的图片，还加载了两次，加载完还在主线程中写文件缓存。这里涉及4个问题：a、加载的图片有2.6MB，过大了;b、加载两次，是逻辑bug；c、在主线程中写文件；还有一个问题是:www.texture 是否应该引用的问题。                         
+项目刚开始时，就觉得会有一些内存的问题，但对于Unity的内存机制没有吃透，不知从何下手。昨天就确实碰到了内存相关具体问题：刚进场景时，会卡住好几秒。经分析：是通过www加载了一个2.6MB的图片，还加载了两次，加载完还在主线程中写文件缓存。这里涉及4个问题：a、加载的图片有2.6MB，过大了;b、加载两次，是逻辑bug；c、在主线程中写文件；还有一个问题是:www.texture 是否应该引用的问题。【补充】昨天发现还有一个问题是：从texture2D创建sprite有坑，会有非常大的耗时。不到50行的代码有5个坑，也是醉了。                         
 
-既然已经碰到具体的问题了，感觉是时候对内存进行一些分析了。Unity的Profile工具中就有内存的信息，信息是有，但不知道如何用这些信息进行分析。晚上睡觉前
-查了相关资源，有人提到了Unity另外提供了内存Profile工具：[MemoryProfiler](https://bitbucket.org/Unity-Technologies/memoryprofiler)，比Unity自带的Profile工具好用，但只支持iOS。第二天早上到公司，就在项目中用MemoryProfiler测试了一上，果然问题很严重：好几个占用5、6MB的材质；单实例与Static导致了大量的内存泄漏。之前就在项目中提过，单实例与Static在项目中满天飞（动不动就单实例与Static，感觉编程思维还停在C时代），要减少使用，没有人听，现在算是找到具体的”罪证“了。下面是MemoryProfile的两张载图。           
+既然已经碰到具体的问题了，感觉是时候对内存进行一些分析了。Unity的Profile工具中就有内存的信息，信息是有，但不知道如何用这些信息进行分析。晚上睡觉前查了相关资源，有人提到了Unity另外提供了内存Profile工具：[MemoryProfiler](https://bitbucket.org/Unity-Technologies/memoryprofiler)，比Unity自带的Profile工具好用，但只支持iOS（Android应该也可以，脚本设置从mono改成IL2CPP）。第二天早上到公司，就在项目中用MemoryProfiler测试了一上，果然问题很严重：好几个占用5、6MB的材质；单实例与Static导致了大量的内存泄漏。之前就在项目中提过，单实例与Static在项目中满天飞（动不动就单实例与Static，感觉编程思维还停在C时代），要减少使用，没有人听，现在算是找到具体的”罪证“了。下面是MemoryProfile的两张载图。           
 
 [大材质](https://github.com/clarkehe/Android/blob/master/doc/MemoryProfile_Big_Texture2D.png)                      
 [内存泄漏](https://github.com/clarkehe/Android/blob/master/doc/MemoryProfile_Memory_Leak.png)
