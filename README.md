@@ -24,6 +24,7 @@ Linux下的IPC机制，有System V and POSIX两个标准，提供的接口会不
 [SurfaceTexture](https://github.com/clarkehe/work/wiki/Android%E7%BB%98%E5%88%B6%E7%B3%BB%E7%BB%9F(3):-SurfaceTexture)       
 [Android 5.0(Lollipop)中的SurfaceTexture，TextureView, SurfaceView和GLSurfaceView](http://blog.csdn.net/jinzhuojun/article/details/44062175)     
 [Android Graphics](https://source.android.com/devices/graphics/index.html)   
+[Android 4.1黄油计划](https://github.com/clarkehe/Android/wiki/Andorid-4.1-%E9%BB%84%E6%B2%B9%E8%AE%A1%E5%88%92)      
 
 ### 网络
 移动端除了WIFI还有移动网络（弱网络）。移动网络是一个优势，可以实时在线并访问网络。移动网络的主要问题有：低速、高延迟、流量有成本、连接不稳定等，这些问题是在实际开发中要面对的。
